@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Style de l'en-tête */
+h1 {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style de la navigation (liens) */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Style de la section principale */
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Style de l'en-tête */
+h1 {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style de la navigation (liens) */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1); /* Ajout d'une animation de mise à l'échelle au survol */
+}
+
+/* Style de la section principale */
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    transition: color 0.3s; /* Ajout d'une animation de couleur au survol */
+}
+
+section h2:hover {
+    color: #ff5733; /* Couleur différente au survol */
+}

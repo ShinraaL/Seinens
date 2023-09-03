@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut pour assurer une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+/* Style de l'en-tête */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du titre principal */
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* Style du paragraphe de description */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Style du titre de la vidéo */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Style de la vidéo avec une bordure */
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style du message en cas de non-support de la vidéo */
+video::cue {
+    color: #333;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style du lien de retour */
+footer a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding: 5px 10px;
+}
+
+/* Style du triangle gauche */
+footer a::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid #000;
+}
+
+/* Style du triangle droit */
+footer a::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #000;
+}
+
+
+
